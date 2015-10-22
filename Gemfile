@@ -10,7 +10,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
-gem 'mysql2'
 
 gem 'aws-sdk-rails', '~> 1.0'
 
@@ -20,7 +19,7 @@ end
 
 group :production do
   gem 'unicorn'
-  gem 'mysql2'
+  gem 'mysql2', '~> 0.3.18'
 end
 
 group :development, :test do
